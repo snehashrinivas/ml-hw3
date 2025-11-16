@@ -18,8 +18,9 @@ INPUT_FILE = "usnewshealth.txt"  # Change to your tweet file
 K_VALUES = [5, 10, 15, 20, 25]   # K values to try
 NUM_RUNS = 5                      # Runs per K (best result selected)
 
-``` 
+```
+
 - Run `python kmeans_clustering.py` or `python3 kmeans_clustering.py` depending on how your environment is set up
 - The results will save to a 'results.txt' file in the directory.
 
-We used the re library for preprocessing, the random library for random centroid initialization, and collections.defaultdict for cluster management. 
+We used the `re` library for preprocessing, the `random` library for random centroid initialization, and `collections.defaultdict` for cluster management. 
