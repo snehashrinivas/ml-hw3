@@ -275,9 +275,9 @@ def run_kmeans_experiment(tweet_sets, k_values, num_runs=5):
     results = {}
    
     for k in k_values:
-        print(f"\n{'='*50}")
+        print(f"\n")
         print(f"Running K-means with K={k}")
-        print(f"{'='*50}")
+        print(f"\n")
        
         best_sse = float('inf')
         best_clusters = None
@@ -312,14 +312,14 @@ def run_kmeans_experiment(tweet_sets, k_values, num_runs=5):
 
 def print_results_table(results):
     """
-    Print results in the format required by assignment
+    Prints results in formatted table for output file 
    
     Args:
         results: Dictionary with clustering results
     """
-    print("\n" + "="*70)
+    print(f"\n")
     print("FINAL RESULTS TABLE")
-    print("="*70)
+    print(f"\n")
     print(f"{'Value of K':<15} {'SSE':<20} {'Size of each cluster'}")
     print("-"*70)
    
@@ -333,7 +333,7 @@ def print_results_table(results):
        
         print(f"{k:<15} {sse:<20.4f} {size_str}")
    
-    print("="*70)
+    
 
 
 # Main execution
@@ -358,7 +358,7 @@ if __name__ == "__main__":
     # Optionally save results to file
     with open("results.txt", "w") as f:
         f.write("K-means Clustering Results\n")
-        f.write("="*70 + "\n")
+        f.write("\n")
         f.write(f"{'Value of K':<15} {'SSE':<20} {'Size of each cluster'}\n")
         f.write("-"*70 + "\n")
        
