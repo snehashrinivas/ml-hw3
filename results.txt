@@ -1,0 +1,9 @@
+K-means Clustering Results
+======================================================================
+Value of K      SSE                  Size of each cluster
+----------------------------------------------------------------------
+5               1105.1427            0: 342 tweets, 1: 160 tweets, 2: 274 tweets, 3: 377 tweets, 4: 247 tweets
+10              1074.2631            0: 238 tweets, 1: 79 tweets, 2: 167 tweets, 3: 68 tweets, 4: 135 tweets, 5: 151 tweets, 6: 118 tweets, 7: 255 tweets, 8: 68 tweets, 9: 121 tweets
+15              1036.9842            0: 104 tweets, 1: 66 tweets, 2: 122 tweets, 3: 59 tweets, 4: 142 tweets, 5: 153 tweets, 6: 102 tweets, 7: 29 tweets, 8: 47 tweets, 9: 106 tweets, 10: 55 tweets, 11: 32 tweets, 12: 73 tweets, 13: 122 tweets, 14: 188 tweets
+20              1021.6924            0: 68 tweets, 1: 113 tweets, 2: 136 tweets, 3: 30 tweets, 4: 41 tweets, 5: 50 tweets, 6: 64 tweets, 7: 62 tweets, 8: 132 tweets, 9: 19 tweets, 10: 40 tweets, 11: 40 tweets, 12: 66 tweets, 13: 84 tweets, 14: 84 tweets, 15: 105 tweets, 16: 83 tweets, 17: 110 tweets, 18: 40 tweets, 19: 33 tweets
+25              1009.0644            0: 32 tweets, 1: 77 tweets, 2: 23 tweets, 3: 95 tweets, 4: 124 tweets, 5: 37 tweets, 6: 45 tweets, 7: 70 tweets, 8: 78 tweets, 9: 8 tweets, 10: 56 tweets, 11: 88 tweets, 12: 138 tweets, 13: 18 tweets, 14: 169 tweets, 15: 35 tweets, 16: 16 tweets, 17: 28 tweets, 18: 64 tweets, 19: 8 tweets, 20: 16 tweets, 21: 82 tweets, 22: 24 tweets, 23: 35 tweets, 24: 34 tweets
