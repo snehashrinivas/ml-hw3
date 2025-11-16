@@ -22,5 +22,6 @@ NUM_RUNS = 5                      # Runs per K (best result selected)
 
 - Run `python kmeans_clustering.py` or `python3 kmeans_clustering.py` depending on how your environment is set up
 - The results will save to a 'results.txt' file in the directory.
+- For best viewing results, open the results.txt file in the IDE itself to see the table properly formatted with no wrap. 
 
 We used the `re` library for preprocessing, the `random` library for random centroid initialization, and `collections.defaultdict` for cluster management. 
